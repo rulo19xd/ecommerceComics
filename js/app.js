@@ -3,7 +3,6 @@ const verCarrito = document.getElementById('verCarrito');
 const modalContainer = document.getElementById('modal-container');
 const cantidadCarrito = document.getElementById('cantidadCarrito');
 
-
 let carrito = JSON.parse(localStorage.getItem("carrito")) || []
 
 
@@ -30,7 +29,7 @@ const getProducts = async ()=> {
         content.append(comprar);
     
         comprar.addEventListener("click", () => {
-    
+        
         const repeat = carrito.some((repeatProduct) => repeatProduct.id === product.id)
     
         if (repeat) {
@@ -47,7 +46,12 @@ const getProducts = async ()=> {
                 img: product.img,
                 cantidad: product.cantidad,
             })
-        }
+        }        
+            Swal.fire({
+            icon: 'success',
+            title: 'Añadido al carrito',
+            text: `${product.nombre} ha sido añadido al carrito.`,
+        });
             console.log(carrito)
             carritoCounter()
             saveLocal()
@@ -56,9 +60,6 @@ const getProducts = async ()=> {
 }
 
 getProducts()
-
-
-
 
 const saveLocal = () => {
     localStorage.setItem("carrito", JSON.stringify(carrito));

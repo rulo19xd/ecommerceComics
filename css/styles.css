@@ -237,3 +237,10 @@ button:hover {
     position: absolute;
     display: none;
 }
+
+.sumar {
+    cursor: pointer;
+}
+.restar {
+    cursor: pointer;
+}

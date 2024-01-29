@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "nombre": "Spiderman",
+        "precio": "30000", 
+        "img": "https://http2.mlstatic.com/D_NQ_NP_641378-MLA54037124882_022023-O.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Deadpool",
+        "precio": "5000", 
+        "img": "https://http2.mlstatic.com/D_NQ_NP_711235-MLA40290529872_122019-O.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "BlackBolt",
+        "precio": "14000",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_909995-MLA53126700193_012023-O.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "DareDevil",
+        "precio": "10000",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_776451-MLU74232308751_012024-O.webp",
+        "cantidad": 1
+    },
+    { 
+        "id": 5,
+        "nombre": "SpiderGwen",
+        "precio": "2000",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_664497-MLA73756167783_012024-O.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "nombre": "Pantera Negra",
+        "precio": "30000", 
+        "img": "https://http2.mlstatic.com/D_NQ_NP_856438-MLU70767437016_072023-O.webp",
+        "cantidad": 1
+    },
+    {   "id": 7,
+        "nombre": "Capitan America",
+        "precio": "26000",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_865979-MLU69771917269_062023-O.webp",
+        "cantidad": 1
+    },
+    {   "id": 8,
+        "nombre": "Thor",
+        "precio": "30000",
+        "img": "https://http2.mlstatic.com/D_NQ_NP_727273-MLA44261715575_122020-O.webp",
+        "cantidad": 1
+    }
+]
